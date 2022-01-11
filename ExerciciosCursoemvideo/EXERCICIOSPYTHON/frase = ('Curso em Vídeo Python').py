@@ -1,0 +1,7 @@
+nom = str(input('Digite o seu nome: ')).strip()
+nom2 = nom.upper()
+nom3 = nom.lower()
+print('Nome com letras maíusculas: {}'.format(nom2))
+print('Nome com letras minúsculas: {}'.format(nom3))
+print('Nome: {}'. format(len(nom) - nom.count(' ')))
+print('Nome: {}'.format(nom.find(' ')))

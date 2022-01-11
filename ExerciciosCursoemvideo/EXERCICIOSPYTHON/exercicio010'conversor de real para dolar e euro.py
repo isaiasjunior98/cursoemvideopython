@@ -1,0 +1,6 @@
+Real = float(input('Quanto dinheiro você tem na carteira? R$: '))
+dolar = float(input('Qual a cotação do dólar? U$: '))
+Euro = float(input('Qual a cotação do Euro: €$: '))
+v1 = (Real/dolar)
+v2 = (Real/Euro)
+print('Na cotação atual com {} você tem {:.2f} dólares e {:.2f} Euros.'.format(Real, v1, v2))
